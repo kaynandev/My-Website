@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: montserrat;
+    font-weight: lighter;
+}
+
+
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: url('imagens/bolha-background.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+header img{
+    margin: 20px;
+}
+
+nav ul{
+    text-align: center;
+    list-style: none;
+    display: flex;
+}
+
+nav a{
+    color: #3399CC;
+    text-decoration: none;
+    margin: 0px 10px;
+}
+
+#Currículo{
+    background-color: #FF6633;
+    color: white;
+    padding: 8px;
+    border-radius: 20px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    padding-left: 50px;
+    margin-top: 50px;
+}
+
+article h1{
+    font-weight: bolder;
+    font-size: 3em;
+    color: #333366;
+}
+
+article h2{
+    color: #3399CC;
+    font-weight: lighter;
+    margin-top: -20px;
+}
+
+article p{
+    color: #3399CC;
+    width: 90%;
+    font-size: 0.8em;
+}
+
+.botão{
+    color: white;
+    background-color: #FF6633;
+    border-radius: 10px;
+    padding: 8px;
+    text-decoration: none;
+}
+
+#foto{
+    max-width: 80%;
+    margin-left: 10%;
+}
+
+footer ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    list-style: none;
+}
+
+footer img{
+    max-width: 70%;
+    padding: 20px 0px;
+}
+
+}
+@media  screen and (max-widht:650px) {
+    
+}
