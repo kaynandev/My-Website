@@ -93,6 +93,7 @@ article p{
     margin-left: 10%;
 }
 
+
 footer ul{
     display: flex;
     justify-content: center;
@@ -106,7 +107,30 @@ footer img{
     padding: 20px 0px;
 }
 
+
+    
+
+@media screen and (min-width:750px) {
+       
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 20px;
 }
-@media  screen and (max-widht:650px) {
+    
+        
+
+@media screen and (min-width:1080px) {
+    main{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 80%;
+        height: 100%;
+    }
     
 }
+
